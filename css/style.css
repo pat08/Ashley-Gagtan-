@@ -1,0 +1,95 @@
+body{
+	text:white;
+	text-align: center;
+}
+
+.logo {
+	border: 2px black solid;
+	border-radius: 50%;
+	height: 10vh;
+	width: 10vh;
+	margin-left: 30px;
+	position: absolute;
+  left: 90%;
+  top: 4%;
+  color: white;
+  background-image: url(../images/logs.png);
+  background-position: center;
+	
+ 
+}
+
+.showcase{
+	height: 100vh;
+	
+}
+
+li {
+	list-style: none;
+	text-color: white;
+	text-align: center;
+	font-family: trebuchet MS;
+	grid-gap: 5px;
+	padding: 5px;
+	border: 2px solid white;
+	width: 10vw;
+	margin: 10px 0px 30px 90px;
+	color: white;
+	opacity: .5;
+	text-decoration: none;
+}
+
+.menudo {
+	padding: 0px;
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(3,1fr);
+	
+}
+
+.showcase{
+	background-image: url(../images/18.jpg);
+	background-position: 
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.what{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	grid-gap: 2px;
+	
+	height: 90vh;
+	margin-top: 10px;
+}
+
+.photo{
+	background-image: url(../images/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-right: 5px solid white
+}
+
+.txt{
+	
+	background-image: url(../images/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+.headl{
+	padding: 10px;
+	border: 3px solid grey;
+	width: 40vw;
+	margin: 30px auto;
+	left: 0%;
+  top: 100%;
+}
+	
+.22{
+	padding: 10px;
+	border: 3px solid grey;
+	width: 40vw;
+	
+}
